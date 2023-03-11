@@ -1,2 +1,2 @@
-(lang dune 2.7)
-(name GNUgetopt)
+(lang dune 3.7.0)
+(name GetoptLib)
