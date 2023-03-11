@@ -9,6 +9,7 @@ maintainer   : "Christian Rinderknecht <rinderknecht@free.fr>"
 authors      : "Alain Frisch"
 homepage     : "https://github.com/rinderknecht/GetoptLib"
 bug-reports  : "https://github.com/rinderknecht/GetoptLib/issues"
+dev-repo     : "git+https://github.com/rinderknecht/GetoptLib.git"
 license      : "MIT"
 
 # If you change the dependencies, run `opam lock` in the root
@@ -16,5 +17,5 @@ depends      : ["dune"]
 build        : [[ "dune" "build" "-p" name]]
 
 url {
-  src: "https://github.com/rinderknecht/Utilities/-/archive/master/GetoptLib.tar.gz"
+  src: "https://github.com/rinderknecht/GetopLib/-/archive/master/GetoptLib.tar.gz"
 }
